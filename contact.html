@@ -1,0 +1,795 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Contact VELMORA Hotels & Resorts for reservations, private events, guest assistance and luxury hospitality enquiries.">
+
+    <meta name="theme-color" content="#142B32">
+
+    <title>Contact Us | VELMORA Hotels & Resorts</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- AOS ANIMATION -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- MAIN JAVASCRIPT -->
+    <script src="js/script.js" defer></script>
+</head>
+
+
+<body class="contact-page">
+
+
+    <!-- PRELOADER -->
+    <div class="preloader" id="preloader">
+
+        <div class="preloader-content">
+
+            <div class="preloader-orbit">
+
+                <div class="preloader-ring"></div>
+
+                <div class="preloader-ring-inner"></div>
+
+                <div class="preloader-center">
+                    <i class="fa-solid fa-crown"></i>
+                </div>
+
+            </div>
+
+
+            <div class="preloader-brand">
+
+                <h2>VELMORA</h2>
+
+                <span>HOTELS & RESORTS</span>
+
+            </div>
+
+
+            <p class="preloader-loading-text" id="preloader-text">
+                Preparing Your Experience
+            </p>
+
+
+            <div class="preloader-percentage" id="preloader-percent">
+                0%
+            </div>
+
+
+            <div class="preloader-progress">
+
+                <div
+                    class="preloader-progress-bar"
+                    id="preloader-progress"
+                ></div>
+
+            </div>
+
+
+            <p class="preloader-caption">
+                THE ART OF EXCEPTIONAL HOSPITALITY
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- HEADER -->
+    <header class="site-header" id="site-header">
+
+        <div class="container header-container">
+
+
+            <!-- BRAND LOGO -->
+            <a href="index.html" class="brand-logo">
+
+                <span class="brand-icon">
+                    <i class="fa-solid fa-crown"></i>
+                </span>
+
+
+                <span class="brand-text">
+
+                    <strong>VELMORA</strong>
+
+                    <small>HOTELS & RESORTS</small>
+
+                </span>
+
+            </a>
+
+
+
+            <!-- MOBILE MENU BUTTON -->
+            <button
+                class="mobile-menu-toggle"
+                id="mobile-menu-toggle"
+                aria-label="Open Navigation"
+                aria-expanded="false"
+            >
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+
+
+            <!-- NAVIGATION -->
+            <nav class="nav-menu" id="nav-menu">
+
+                <a href="index.html" class="nav-link">
+                    Home
+                </a>
+
+                <a href="hotels.html" class="nav-link">
+                    Hotels
+                </a>
+
+                <a href="rooms.html" class="nav-link">
+                    Rooms
+                </a>
+
+                <a href="offers.html" class="nav-link">
+                    Offers
+                </a>
+
+                <a href="about.html" class="nav-link">
+                    About
+                </a>
+
+                <a href="contact.html" class="nav-link active">
+                    Contact
+                </a>
+
+                <a href="booking.html" class="nav-book-btn">
+
+                    Book Now
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+
+        <!-- CONTACT INTRO -->
+        <section class="contact-intro-section">
+
+            <div class="container">
+
+                <div
+                    class="contact-page-heading"
+                    data-aos="fade-up"
+                >
+
+                    <span class="section-eyebrow">
+                        GET IN TOUCH
+                    </span>
+
+
+                    <h1>
+                        Contact Our
+                        <span>Concierge</span>
+                    </h1>
+
+
+                    <p>
+                        We are at your service 24 hours a day,
+                        7 days a week for reservations, private
+                        events, and enquiries.
+                    </p>
+
+
+                    <div class="heading-decoration">
+
+                        <span></span>
+
+                        <i class="fa-solid fa-crown"></i>
+
+                        <span></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CONTACT FORM SECTION -->
+        <section class="contact-form-section">
+
+            <div class="container">
+
+                <div
+                    class="contact-form-wrapper"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                >
+
+
+                    <!-- FORM HEADING -->
+                    <div class="contact-form-heading">
+
+                        <span class="contact-form-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </span>
+
+
+                        <div>
+
+                            <span class="section-eyebrow">
+                                WE ARE HERE TO HELP
+                            </span>
+
+                            <h2>
+                                Send Us a Message
+                            </h2>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- CONTACT FORM -->
+                    <form
+                        class="contact-form"
+                        id="contact-form"
+                        novalidate
+                    >
+
+
+                        <!-- FULL NAME -->
+                        <div class="form-group">
+
+                            <label for="contact-name">
+                                Your Full Name
+                            </label>
+
+                            <div class="contact-input-wrapper">
+
+                                <i class="fa-regular fa-user"></i>
+
+                                <input
+                                    type="text"
+                                    id="contact-name"
+                                    name="name"
+                                    placeholder="e.g. Rohan Sharma"
+                                    autocomplete="name"
+                                    required
+                                    minlength="2"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- EMAIL -->
+                        <div class="form-group">
+
+                            <label for="contact-email">
+                                Email Address
+                            </label>
+
+                            <div class="contact-input-wrapper">
+
+                                <i class="fa-regular fa-envelope"></i>
+
+                                <input
+                                    type="email"
+                                    id="contact-email"
+                                    name="email"
+                                    placeholder="e.g. rohan@gmail.com"
+                                    autocomplete="email"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- INQUIRY TYPE -->
+                        <div class="form-group">
+
+                            <label for="contact-subject">
+                                Subject / Inquiry Type
+                            </label>
+
+                            <div class="contact-input-wrapper">
+
+                                <i class="fa-solid fa-list"></i>
+
+                                <select
+                                    id="contact-subject"
+                                    name="subject"
+                                    required
+                                >
+
+                                    <option value="" selected disabled>
+                                        Select Inquiry Type
+                                    </option>
+
+                                    <option value="Room Reservations">
+                                        Room Reservations
+                                    </option>
+
+                                    <option value="Hotel Information">
+                                        Hotel Information
+                                    </option>
+
+                                    <option value="Special Offers">
+                                        Special Offers
+                                    </option>
+
+                                    <option value="Private Events">
+                                        Private Events
+                                    </option>
+
+                                    <option value="Dining Reservations">
+                                        Dining Reservations
+                                    </option>
+
+                                    <option value="Guest Assistance">
+                                        Guest Assistance
+                                    </option>
+
+                                    <option value="Other Enquiries">
+                                        Other Enquiries
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- MESSAGE -->
+                        <div class="form-group">
+
+                            <label for="contact-message">
+                                Your Message
+                            </label>
+
+                            <div class="contact-input-wrapper textarea-wrapper">
+
+                                <i class="fa-regular fa-comment-dots"></i>
+
+                                <textarea
+                                    id="contact-message"
+                                    name="message"
+                                    rows="6"
+                                    placeholder="Tell us how we can assist you..."
+                                    required
+                                    minlength="10"
+                                ></textarea>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- SUBMIT BUTTON -->
+                        <button
+                            type="submit"
+                            class="contact-submit-btn"
+                        >
+
+                            <span>Send The Message</span>
+
+                            <i class="fa-solid fa-paper-plane"></i>
+
+                        </button>
+
+
+                        <!-- FORM STATUS -->
+                        <div
+                            class="contact-form-status"
+                            id="contact-form-status"
+                            role="status"
+                            aria-live="polite"
+                        ></div>
+
+
+                        <p class="contact-form-note">
+
+                            <i class="fa-solid fa-lock"></i>
+
+                            Your information will be treated
+                            with complete confidentiality.
+
+                        </p>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CONTACT INFORMATION -->
+        <section class="contact-information-section">
+
+            <div class="container">
+
+                <div
+                    class="contact-information-heading"
+                    data-aos="fade-up"
+                >
+
+                    <span class="section-eyebrow">
+                        ALWAYS CONNECTED
+                    </span>
+
+                    <h2>
+                        We're Just a
+                        <span>Message Away</span>
+                    </h2>
+
+                </div>
+
+
+
+                <div class="contact-information-grid">
+
+
+                    <!-- PHONE -->
+                    <div
+                        class="contact-information-card"
+                        data-aos="fade-up"
+                    >
+
+                        <div class="contact-information-icon">
+
+                            <i class="fa-solid fa-phone"></i>
+
+                        </div>
+
+                        <h3>Call Our Concierge</h3>
+
+                        <p>
+                            Speak with our guest assistance team.
+                        </p>
+
+                        <a href="tel:+911234567890">
+                            +91 1234567890
+                        </a>
+
+                    </div>
+
+
+
+                    <!-- EMAIL -->
+                    <div
+                        class="contact-information-card"
+                        data-aos="fade-up"
+                        data-aos-delay="120"
+                    >
+
+                        <div class="contact-information-icon">
+
+                            <i class="fa-regular fa-envelope"></i>
+
+                        </div>
+
+                        <h3>Email Us</h3>
+
+                        <p>
+                            Send us your questions and enquiries.
+                        </p>
+
+                        <a href="mailto:styxxxxxx@gmail.com">
+                            styxxxxxx@gmail.com
+                        </a>
+
+                    </div>
+
+
+
+                    <!-- LOCATION -->
+                    <div
+                        class="contact-information-card"
+                        data-aos="fade-up"
+                        data-aos-delay="240"
+                    >
+
+                        <div class="contact-information-icon">
+
+                            <i class="fa-solid fa-location-dot"></i>
+
+                        </div>
+
+                        <h3>Our Location</h3>
+
+                        <p>
+                            Visit our hospitality office.
+                        </p>
+
+                        <span>
+                            Chennai, India
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- CONTACT CTA -->
+        <section class="contact-cta-section">
+
+            <div class="container">
+
+                <div
+                    class="contact-cta-content"
+                    data-aos="zoom-in"
+                >
+
+                    <span class="section-eyebrow">
+                        YOUR NEXT JOURNEY STARTS HERE
+                    </span>
+
+                    <h2>
+                        Let Us Make Your
+                        <span>Stay Extraordinary</span>
+                    </h2>
+
+                    <p>
+                        Discover exceptional destinations,
+                        thoughtfully designed rooms, and
+                        personalised luxury experiences.
+                    </p>
+
+
+                    <a href="booking.html" class="btn btn-primary">
+
+                        Reserve Your Stay
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+
+                <!-- FOOTER BRAND -->
+                <div class="footer-brand">
+
+                    <a href="index.html" class="brand-logo footer-logo">
+
+                        <span class="brand-icon">
+                            <i class="fa-solid fa-crown"></i>
+                        </span>
+
+                        <span class="brand-text">
+
+                            <strong>VELMORA</strong>
+
+                            <small>HOTELS & RESORTS</small>
+
+                        </span>
+
+                    </a>
+
+
+                    <p>
+                        VELMORA offers world-class hospitality,
+                        unmatched comfort, and exquisite elegance
+                        across breathtaking international locations.
+                    </p>
+
+
+                    <div class="footer-socials">
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- QUICK LINKS -->
+                <div class="footer-column">
+
+                    <h3>Quick Links</h3>
+
+                    <a href="index.html">Home</a>
+
+                    <a href="hotels.html">Hotels</a>
+
+                    <a href="rooms.html">Rooms</a>
+
+                    <a href="offers.html">Offers</a>
+
+                    <a href="about.html">About</a>
+
+                </div>
+
+
+
+                <!-- SUPPORT -->
+                <div class="footer-column">
+
+                    <h3>Support</h3>
+
+                    <a href="contact.html">Help Center</a>
+
+                    <a href="contact.html">Cancellation Policy</a>
+
+                    <a href="contact.html">Safety Protocols</a>
+
+                    <a href="contact.html">Contact Us</a>
+
+                </div>
+
+
+
+                <!-- CONTACT DETAILS -->
+                <div class="footer-column footer-contact">
+
+                    <h3>Connect With Us</h3>
+
+
+                    <p>
+
+                        <i class="fa-solid fa-phone"></i>
+
+                        <a href="tel:+911234567890">
+                            +91 1234567890
+                        </a>
+
+                    </p>
+
+
+                    <p>
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        Chennai, India
+
+                    </p>
+
+
+                    <p>
+
+                        <i class="fa-solid fa-envelope"></i>
+
+                        <a href="mailto:styxxxxxx@gmail.com">
+                            styxxxxxx@gmail.com
+                        </a>
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- FOOTER BOTTOM -->
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 VELMORA Hotels & Resorts.
+                    All Rights Reserved.
+                </p>
+
+                <span>
+                    Crafted for Exceptional Experiences
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- BACK TO TOP -->
+    <button
+        class="back-to-top"
+        id="back-to-top"
+        aria-label="Back to top"
+    >
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+
+    <!-- TOAST MESSAGE -->
+    <div
+        class="toast-message"
+        id="toast-message"
+        role="status"
+        aria-live="polite"
+    ></div>
+
+
+
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</body>
+</html>

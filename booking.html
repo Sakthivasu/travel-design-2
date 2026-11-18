@@ -1,0 +1,1115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Reserve your luxury stay at VELMORA Hotels & Resorts. Explore our exclusive rooms and enjoy exceptional hospitality.">
+
+    <meta name="theme-color" content="#142B32">
+
+    <title>Book Your Stay | VELMORA Hotels & Resorts</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Main JavaScript -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body class="booking-page">
+
+
+    <!-- PRELOADER -->
+    <div class="preloader" id="preloader">
+
+        <div class="preloader-content">
+
+            <div class="preloader-orbit">
+                <div class="preloader-ring"></div>
+                <div class="preloader-ring-inner"></div>
+
+                <div class="preloader-center">
+                    <i class="fa-solid fa-crown"></i>
+                </div>
+            </div>
+
+            <div class="preloader-brand">
+                <h2>VELMORA</h2>
+                <span>HOTELS & RESORTS</span>
+            </div>
+
+            <p class="preloader-loading-text" id="preloader-text">
+                Preparing Your Experience
+            </p>
+
+            <div class="preloader-percentage" id="preloader-percent">
+                0%
+            </div>
+
+            <div class="preloader-progress">
+                <div class="preloader-progress-bar" id="preloader-progress"></div>
+            </div>
+
+            <p class="preloader-caption">
+                THE ART OF EXCEPTIONAL HOSPITALITY
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- HEADER -->
+    <header class="site-header" id="site-header">
+
+        <div class="container header-container">
+
+            <a href="index.html" class="brand-logo">
+
+                <span class="brand-icon">
+                    <i class="fa-solid fa-crown"></i>
+                </span>
+
+                <span class="brand-text">
+                    <strong>VELMORA</strong>
+                    <small>HOTELS & RESORTS</small>
+                </span>
+
+            </a>
+
+
+            <button
+                class="mobile-menu-toggle"
+                id="mobile-menu-toggle"
+                aria-label="Open Navigation"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <nav class="nav-menu" id="nav-menu">
+
+                <a href="index.html" class="nav-link">Home</a>
+
+                <a href="hotels.html" class="nav-link">Hotels</a>
+
+                <a href="rooms.html" class="nav-link">Rooms</a>
+
+                <a href="offers.html" class="nav-link">Offers</a>
+
+                <a href="about.html" class="nav-link">About</a>
+
+                <a href="contact.html" class="nav-link">Contact</a>
+
+                <a href="booking.html" class="nav-book-btn active">
+                    Book Now
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- BOOKING PAGE INTRO -->
+        <section class="rooms-page-intro booking-page-intro">
+
+            <div class="container">
+
+                <div class="rooms-page-heading" data-aos="fade-up">
+
+                    <span class="section-eyebrow">
+                        LUXURY STAYS
+                    </span>
+
+                    <h1>
+                        Exclusive Room
+                        <span>Collection</span>
+                    </h1>
+
+                    <p>
+                        Explore our premium accommodations,
+                        thoughtfully designed for exceptional comfort.
+                    </p>
+
+                    <div class="heading-decoration">
+                        <span></span>
+                        <i class="fa-solid fa-crown"></i>
+                        <span></span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ROOM COLLECTION -->
+        <section class="rooms-collection-section booking-room-collection">
+
+            <div class="container">
+
+                <div class="rooms-layout">
+
+
+                    <!-- FILTER SIDEBAR -->
+                    <aside class="rooms-filter-sidebar" data-aos="fade-right">
+
+                        <div class="rooms-filter-heading">
+
+                            <i class="fa-solid fa-sliders"></i>
+
+                            <h3>Filter Rooms</h3>
+
+                        </div>
+
+
+                        <div class="rooms-filter-tabs">
+
+                            <button
+                                class="room-filter-btn active"
+                                data-filter="all"
+                                type="button"
+                            >
+                                <span>All Rooms</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+
+                            <button
+                                class="room-filter-btn"
+                                data-filter="deluxe"
+                                type="button"
+                            >
+                                <span>Deluxe</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+
+                            <button
+                                class="room-filter-btn"
+                                data-filter="suite"
+                                type="button"
+                            >
+                                <span>Suites</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+
+                            <button
+                                class="room-filter-btn"
+                                data-filter="family"
+                                type="button"
+                            >
+                                <span>Family</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+                        </div>
+
+
+                        <div class="booking-sidebar-note">
+
+                            <i class="fa-solid fa-circle-info"></i>
+
+                            <p>
+                                Choose your preferred room
+                                and reserve your experience.
+                            </p>
+
+                        </div>
+
+                    </aside>
+
+
+
+                    <!-- ROOM CARDS -->
+                    <div class="rooms-main-content">
+
+                        <div class="rooms-results-heading">
+
+                            <div>
+                                <span class="section-eyebrow">
+                                    FIND YOUR PERFECT STAY
+                                </span>
+
+                                <h2>Our Signature Rooms</h2>
+                            </div>
+
+                            <span class="rooms-count" id="rooms-count">
+                                4 Rooms
+                            </span>
+
+                        </div>
+
+
+
+                        <div class="rooms-grid booking-rooms-grid" id="rooms-grid">
+
+
+                            <!-- DELUXE ROOM -->
+                            <article
+                                class="room-card"
+                                data-category="deluxe"
+                                data-aos="fade-up"
+                            >
+
+                                <div class="room-card-image">
+
+                                    <img
+                                        src="img/antonio-araujo-ZyyobP6qcvY-unsplash.webp"
+                                        alt="VELMORA Deluxe Room"
+                                        loading="lazy"
+                                    >
+
+                                    <span class="room-card-price">
+                                        ₹3,500 / Night
+                                    </span>
+
+                                    <button
+                                        class="room-wishlist-btn"
+                                        type="button"
+                                        aria-label="Add Deluxe Room to wishlist"
+                                    >
+                                        <i class="fa-regular fa-heart"></i>
+                                    </button>
+
+                                </div>
+
+
+                                <div class="room-card-content">
+
+                                    <span class="room-category-label">
+                                        DELUXE COLLECTION
+                                    </span>
+
+                                    <h3>Deluxe Room</h3>
+
+                                    <p>
+                                        A refined and elegant room
+                                        featuring a plush king bed,
+                                        city view, and modern
+                                        marble bathroom.
+                                    </p>
+
+
+                                    <div class="room-card-details">
+
+                                        <span>
+                                            <i class="fa-solid fa-user-group"></i>
+                                            2 Guests
+                                        </span>
+
+                                        <span>
+                                            <i class="fa-solid fa-expand"></i>
+                                            35 sqm
+                                        </span>
+
+                                    </div>
+
+
+                                    <div class="room-card-footer">
+
+                                        <span>
+                                            <strong>₹3,500</strong>
+                                            / night
+                                        </span>
+
+                                        <button
+                                            class="room-book-btn"
+                                            type="button"
+                                            data-room="Deluxe Room"
+                                            data-price="3500"
+                                        >
+                                            Book Now
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+
+                                    </div>
+
+                                </div>
+
+                            </article>
+
+
+
+                            <!-- EXECUTIVE SUITE -->
+                            <article
+                                class="room-card"
+                                data-category="suite"
+                                data-aos="fade-up"
+                                data-aos-delay="100"
+                            >
+
+                                <div class="room-card-image">
+
+                                    <img
+                                        src="img/bilderboken-rlwE8f8anOc-unsplash.webp"
+                                        alt="VELMORA Executive Suite"
+                                        loading="lazy"
+                                    >
+
+                                    <span class="room-card-price">
+                                        ₹4,300 / Night
+                                    </span>
+
+                                    <button
+                                        class="room-wishlist-btn"
+                                        type="button"
+                                        aria-label="Add Executive Suite to wishlist"
+                                    >
+                                        <i class="fa-regular fa-heart"></i>
+                                    </button>
+
+                                </div>
+
+
+                                <div class="room-card-content">
+
+                                    <span class="room-category-label">
+                                        SIGNATURE SUITE
+                                    </span>
+
+                                    <h3>Executive Suite</h3>
+
+                                    <p>
+                                        Experience spacious luxury
+                                        with a separate living area,
+                                        premium furnishings, and
+                                        personalised services.
+                                    </p>
+
+
+                                    <div class="room-card-details">
+
+                                        <span>
+                                            <i class="fa-solid fa-user-group"></i>
+                                            2 Guests
+                                        </span>
+
+                                        <span>
+                                            <i class="fa-solid fa-expand"></i>
+                                            50 sqm
+                                        </span>
+
+                                    </div>
+
+
+                                    <div class="room-card-footer">
+
+                                        <span>
+                                            <strong>₹4,300</strong>
+                                            / night
+                                        </span>
+
+                                        <button
+                                            class="room-book-btn"
+                                            type="button"
+                                            data-room="Executive Suite"
+                                            data-price="4300"
+                                        >
+                                            Book Now
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+
+                                    </div>
+
+                                </div>
+
+                            </article>
+
+
+
+                            <!-- KING DELUXE -->
+                            <article
+                                class="room-card"
+                                data-category="deluxe"
+                                data-aos="fade-up"
+                                data-aos-delay="200"
+                            >
+
+                                <div class="room-card-image">
+
+                                    <img
+                                        src="img/camille-brodard-VxAwTeiqDao-unsplash.webp"
+                                        alt="VELMORA King Deluxe Room"
+                                        loading="lazy"
+                                    >
+
+                                    <span class="room-card-price">
+                                        ₹3,500 / Night
+                                    </span>
+
+                                    <button
+                                        class="room-wishlist-btn"
+                                        type="button"
+                                        aria-label="Add King Deluxe Room to wishlist"
+                                    >
+                                        <i class="fa-regular fa-heart"></i>
+                                    </button>
+
+                                </div>
+
+
+                                <div class="room-card-content">
+
+                                    <span class="room-category-label">
+                                        PREMIUM COLLECTION
+                                    </span>
+
+                                    <h3>King Deluxe Room</h3>
+
+                                    <p>
+                                        Relax in an elegant room
+                                        featuring a luxurious king
+                                        bed, modern amenities, and
+                                        beautifully designed interiors.
+                                    </p>
+
+
+                                    <div class="room-card-details">
+
+                                        <span>
+                                            <i class="fa-solid fa-user-group"></i>
+                                            2 Guests
+                                        </span>
+
+                                        <span>
+                                            <i class="fa-solid fa-expand"></i>
+                                            40 sqm
+                                        </span>
+
+                                    </div>
+
+
+                                    <div class="room-card-footer">
+
+                                        <span>
+                                            <strong>₹3,500</strong>
+                                            / night
+                                        </span>
+
+                                        <button
+                                            class="room-book-btn"
+                                            type="button"
+                                            data-room="King Deluxe Room"
+                                            data-price="3500"
+                                        >
+                                            Book Now
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+
+                                    </div>
+
+                                </div>
+
+                            </article>
+
+
+
+                            <!-- FAMILY ROOM -->
+                            <article
+                                class="room-card"
+                                data-category="family"
+                                data-aos="fade-up"
+                                data-aos-delay="300"
+                            >
+
+                                <div class="room-card-image">
+
+                                    <img
+                                        src="img/ciudad-maderas-MXbM1NrRqtI-unsplash.webp"
+                                        alt="VELMORA Family Room"
+                                        loading="lazy"
+                                    >
+
+                                    <span class="room-card-price">
+                                        ₹5,500 / Night
+                                    </span>
+
+                                    <button
+                                        class="room-wishlist-btn"
+                                        type="button"
+                                        aria-label="Add Family Room to wishlist"
+                                    >
+                                        <i class="fa-regular fa-heart"></i>
+                                    </button>
+
+                                </div>
+
+
+                                <div class="room-card-content">
+
+                                    <span class="room-category-label">
+                                        FAMILY COLLECTION
+                                    </span>
+
+                                    <h3>Family Room</h3>
+
+                                    <p>
+                                        Designed for families with
+                                        two connected sleeping areas,
+                                        comfortable interiors, and
+                                        child-friendly comforts.
+                                    </p>
+
+
+                                    <div class="room-card-details">
+
+                                        <span>
+                                            <i class="fa-solid fa-user-group"></i>
+                                            4 Guests
+                                        </span>
+
+                                        <span>
+                                            <i class="fa-solid fa-expand"></i>
+                                            65 sqm
+                                        </span>
+
+                                    </div>
+
+
+                                    <div class="room-card-footer">
+
+                                        <span>
+                                            <strong>₹5,500</strong>
+                                            / night
+                                        </span>
+
+                                        <button
+                                            class="room-book-btn"
+                                            type="button"
+                                            data-room="Family Room"
+                                            data-price="5500"
+                                        >
+                                            Book Now
+                                            <i class="fa-solid fa-arrow-right"></i>
+                                        </button>
+
+                                    </div>
+
+                                </div>
+
+                            </article>
+
+
+                        </div>
+
+
+
+                        <div class="rooms-empty-state" id="rooms-empty-state">
+
+                            <i class="fa-solid fa-bed"></i>
+
+                            <h3>No Rooms Found</h3>
+
+                            <p>
+                                Please select another room category.
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- BOOKING BENEFITS -->
+        <section class="booking-benefits-section section-padding">
+
+            <div class="container">
+
+                <div class="section-heading text-center" data-aos="fade-up">
+
+                    <span class="section-eyebrow">
+                        THE VELMORA PROMISE
+                    </span>
+
+                    <h2>
+                        A Stay Beyond
+                        <span>Expectations</span>
+                    </h2>
+
+                    <p>
+                        Every reservation comes with thoughtful
+                        comforts and exceptional attention.
+                    </p>
+
+                </div>
+
+
+                <div class="booking-benefits-grid">
+
+
+                    <div class="booking-benefit-card" data-aos="fade-up">
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                        <h3>Secure Booking</h3>
+
+                        <p>
+                            A simple and secure reservation experience.
+                        </p>
+
+                    </div>
+
+
+                    <div class="booking-benefit-card" data-aos="fade-up" data-aos-delay="100">
+
+                        <i class="fa-solid fa-concierge-bell"></i>
+
+                        <h3>Personalised Service</h3>
+
+                        <p>
+                            Thoughtful service designed around your stay.
+                        </p>
+
+                    </div>
+
+
+                    <div class="booking-benefit-card" data-aos="fade-up" data-aos-delay="200">
+
+                        <i class="fa-solid fa-clock"></i>
+
+                        <h3>24/7 Assistance</h3>
+
+                        <p>
+                            Our hospitality team is ready to assist you.
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- BOOKING CTA -->
+        <section class="rooms-booking-cta">
+
+            <div class="container">
+
+                <div class="rooms-booking-cta-content" data-aos="zoom-in">
+
+                    <span class="section-eyebrow">
+                        YOUR JOURNEY STARTS HERE
+                    </span>
+
+                    <h2>
+                        Your Perfect Stay
+                        <span>Awaits You</span>
+                    </h2>
+
+                    <p>
+                        Choose your favourite room and experience
+                        the art of exceptional hospitality.
+                    </p>
+
+                    <a href="contact.html" class="btn btn-primary">
+                        Need Assistance?
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- RESERVATION MODAL -->
+    <div
+        class="room-reservation-modal"
+        id="room-reservation-modal"
+        aria-hidden="true"
+    >
+
+        <div
+            class="room-modal-backdrop"
+            data-close-modal
+        ></div>
+
+
+        <div
+            class="room-modal-content"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="room-modal-title"
+        >
+
+            <button
+                class="room-modal-close"
+                id="room-modal-close"
+                type="button"
+                aria-label="Close Reservation Form"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+
+            <div class="room-modal-heading">
+
+                <span class="section-eyebrow">
+                    YOUR VELMORA EXPERIENCE
+                </span>
+
+                <h2 id="room-modal-title">
+                    Reserve
+                    <span id="selected-room-name">Executive Suite</span>
+                </h2>
+
+                <p class="room-modal-price">
+                    <strong id="selected-room-price">₹4,300</strong>
+                    <span>per night · VELMORA Hospitality</span>
+                </p>
+
+            </div>
+
+
+
+            <form id="room-reservation-form" novalidate>
+
+                <input
+                    type="hidden"
+                    id="selected-room"
+                    name="room"
+                    value="Executive Suite"
+                >
+
+                <input
+                    type="hidden"
+                    id="selected-price"
+                    name="price"
+                    value="4300"
+                >
+
+
+                <!-- GUEST NAME -->
+                <div class="form-group">
+
+                    <label for="reservation-name">
+                        Your Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="reservation-name"
+                        name="guestName"
+                        placeholder="e.g. Rohan"
+                        autocomplete="name"
+                        required
+                        minlength="3"
+                    >
+
+                </div>
+
+
+
+                <!-- CHECK IN / CHECK OUT -->
+                <div class="booking-date-grid">
+
+
+                    <div class="form-group">
+
+                        <label for="reservation-checkin">
+                            <i class="fa-regular fa-calendar"></i>
+                            CHECK-IN
+                        </label>
+
+                        <input
+                            type="date"
+                            id="reservation-checkin"
+                            name="checkin"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="reservation-checkout">
+                            <i class="fa-regular fa-calendar"></i>
+                            CHECK-OUT
+                        </label>
+
+                        <input
+                            type="date"
+                            id="reservation-checkout"
+                            name="checkout"
+                            required
+                        >
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- GUEST COUNT -->
+                <div class="form-group">
+
+                    <label for="reservation-guests">
+                        Number of Guests
+                    </label>
+
+                    <select
+                        id="reservation-guests"
+                        name="guests"
+                        required
+                    >
+                        <option value="1">1 Guest</option>
+                        <option value="2" selected>2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5 Guests</option>
+                        <option value="6">6 Guests</option>
+                    </select>
+
+                </div>
+
+
+
+                <!-- SPECIAL REQUESTS -->
+                <div class="form-group">
+
+                    <label for="reservation-requests">
+                        Special Requests or Butler Note
+                    </label>
+
+                    <textarea
+                        id="reservation-requests"
+                        name="requests"
+                        rows="4"
+                        placeholder="Tell us about any special arrangements you would like..."
+                    ></textarea>
+
+                </div>
+
+
+
+                <!-- SUBMIT -->
+                <button
+                    type="submit"
+                    class="room-reservation-submit"
+                >
+
+                    Confirm & Secure Reservation
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+
+                <div
+                    class="room-reservation-status"
+                    id="room-reservation-status"
+                    role="status"
+                    aria-live="polite"
+                ></div>
+
+
+                <p class="booking-form-note">
+                    <i class="fa-solid fa-lock"></i>
+                    Your information is handled with care.
+                </p>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+
+                <div class="footer-brand">
+
+                    <a href="index.html" class="brand-logo footer-logo">
+
+                        <span class="brand-icon">
+                            <i class="fa-solid fa-crown"></i>
+                        </span>
+
+                        <span class="brand-text">
+                            <strong>VELMORA</strong>
+                            <small>HOTELS & RESORTS</small>
+                        </span>
+
+                    </a>
+
+
+                    <p>
+                        VELMORA offers world-class hospitality,
+                        unmatched comfort, and exquisite elegance
+                        across breathtaking international locations.
+                    </p>
+
+
+                    <div class="footer-socials">
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="footer-column">
+
+                    <h3>Quick Links</h3>
+
+                    <a href="index.html">Home</a>
+                    <a href="hotels.html">Hotels</a>
+                    <a href="rooms.html">Rooms</a>
+                    <a href="offers.html">Offers</a>
+                    <a href="about.html">About</a>
+
+                </div>
+
+
+
+                <div class="footer-column">
+
+                    <h3>Support</h3>
+
+                    <a href="contact.html">Help Center</a>
+                    <a href="contact.html">Cancellation Policy</a>
+                    <a href="contact.html">Safety Protocols</a>
+                    <a href="contact.html">Contact Us</a>
+
+                </div>
+
+
+
+                <div class="footer-column footer-contact">
+
+                    <h3>Connect With Us</h3>
+
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+911234567890">
+                            +91 1234567890
+                        </a>
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Chennai, India
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:styxxxxxx@gmail.com">
+                            styxxxxxx@gmail.com
+                        </a>
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 VELMORA Hotels & Resorts.
+                    All Rights Reserved.
+                </p>
+
+                <span>
+                    Crafted for Exceptional Experiences
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- BACK TO TOP -->
+    <button
+        class="back-to-top"
+        id="back-to-top"
+        aria-label="Back to top"
+    >
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+
+    <!-- TOAST -->
+    <div class="toast-message" id="toast-message" role="status"></div>
+
+
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+</html>

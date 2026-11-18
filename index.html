@@ -1,0 +1,915 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Experience exceptional luxury, elegant rooms, and world-class hospitality at VELMORA Hotels & Resorts.">
+
+    <meta name="theme-color" content="#142B32">
+
+    <title>VELMORA | Luxury Hotels & Resorts</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Main JavaScript -->
+    <script src="js/script.js" defer></script>
+</head>
+
+<body class="home-page">
+
+    <!-- PRELOADER -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+
+            <div class="preloader-orbit">
+                <div class="preloader-ring"></div>
+                <div class="preloader-ring-inner"></div>
+
+                <div class="preloader-center">
+                    <i class="fa-solid fa-crown"></i>
+                </div>
+            </div>
+
+            <div class="preloader-brand">
+                <h2>VELMORA</h2>
+                <span>HOTELS & RESORTS</span>
+            </div>
+
+            <p class="preloader-loading-text" id="preloader-text">
+                Preparing Your Experience
+            </p>
+
+            <div class="preloader-percentage" id="preloader-percent">
+                0%
+            </div>
+
+            <div class="preloader-progress">
+                <div class="preloader-progress-bar" id="preloader-progress"></div>
+            </div>
+
+            <p class="preloader-caption">
+                THE ART OF EXCEPTIONAL HOSPITALITY
+            </p>
+
+        </div>
+    </div>
+
+
+    <!-- HEADER -->
+    <header class="site-header" id="site-header">
+
+        <div class="container header-container">
+
+            <a href="index.html" class="brand-logo">
+
+                <span class="brand-icon">
+                    <i class="fa-solid fa-crown"></i>
+                </span>
+
+                <span class="brand-text">
+                    <strong>VELMORA</strong>
+                    <small>HOTELS & RESORTS</small>
+                </span>
+
+            </a>
+
+
+            <button class="mobile-menu-toggle"
+                    id="mobile-menu-toggle"
+                    aria-label="Open Navigation"
+                    aria-expanded="false">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+
+            <nav class="nav-menu" id="nav-menu">
+
+                <a href="index.html" class="nav-link active">Home</a>
+
+                <a href="hotels.html" class="nav-link">Hotels</a>
+
+                <a href="rooms.html" class="nav-link">Rooms</a>
+
+                <a href="offers.html" class="nav-link">Offers</a>
+
+                <a href="about.html" class="nav-link">About</a>
+
+                <a href="contact.html" class="nav-link">Contact</a>
+
+                <a href="booking.html" class="nav-book-btn">
+                    Book Now
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- HERO SECTION -->
+        <section class="home-hero">
+
+            <div class="home-hero-background">
+
+                <img
+                    src="img/sara-dubler-Koei_7yYtIo-unsplash.webp"
+                    alt="Luxury VELMORA hotel resort"
+                    class="home-hero-image"
+                >
+
+                <div class="home-hero-overlay"></div>
+
+            </div>
+
+
+            <div class="container home-hero-container">
+
+                <div class="home-hero-content" data-aos="fade-up">
+
+                    <span class="home-hero-badge">
+                        <i class="fa-solid fa-star"></i>
+                        FIVE-STAR LUXURY EXPERIENCE
+                    </span>
+
+                    <h1 class="home-hero-title">
+                        Discover Your
+                        <span>Perfect Escape</span>
+                    </h1>
+
+                    <p class="home-hero-description">
+                        Experience a world where timeless elegance meets
+                        extraordinary hospitality. Discover unforgettable
+                        moments with VELMORA Hotels & Resorts.
+                    </p>
+
+                    <div class="home-hero-actions">
+
+                        <a href="hotels.html" class="btn btn-primary">
+                            Explore Our Hotels
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="about.html" class="btn btn-outline">
+                            Discover VELMORA
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BOOKING SEARCH -->
+                <div class="home-booking-card" data-aos="fade-up" data-aos-delay="200">
+
+                    <div class="booking-card-heading">
+
+                        <div>
+                            <span class="section-eyebrow">PLAN YOUR STAY</span>
+                            <h3>Find Your Perfect Stay</h3>
+                        </div>
+
+                        <i class="fa-solid fa-calendar-check"></i>
+
+                    </div>
+
+
+                    <form class="home-booking-form" id="home-booking-form">
+
+                        <div class="home-booking-field">
+
+                            <label for="home-destination">
+                                Destination
+                            </label>
+
+                            <div class="booking-input-wrap">
+                                <i class="fa-solid fa-location-dot"></i>
+
+                                <select id="home-destination" required>
+                                    <option value="">Choose Destination</option>
+                                    <option value="Chennai">Chennai</option>
+                                    <option value="Mumbai">Mumbai</option>
+                                    <option value="Bengaluru">Bengaluru</option>
+                                    <option value="Goa">Goa</option>
+                                    <option value="Dubai">Dubai</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+
+                        <div class="home-booking-field">
+
+                            <label for="home-checkin">Check In</label>
+
+                            <div class="booking-input-wrap">
+                                <i class="fa-regular fa-calendar"></i>
+
+                                <input
+                                    type="date"
+                                    id="home-checkin"
+                                    required
+                                >
+                            </div>
+
+                        </div>
+
+
+                        <div class="home-booking-field">
+
+                            <label for="home-checkout">Check Out</label>
+
+                            <div class="booking-input-wrap">
+                                <i class="fa-regular fa-calendar-check"></i>
+
+                                <input
+                                    type="date"
+                                    id="home-checkout"
+                                    required
+                                >
+                            </div>
+
+                        </div>
+
+
+                        <div class="home-booking-field">
+
+                            <label for="home-guests">Guests</label>
+
+                            <div class="booking-input-wrap">
+                                <i class="fa-solid fa-users"></i>
+
+                                <select id="home-guests" required>
+                                    <option value="1">1 Guest</option>
+                                    <option value="2" selected>2 Guests</option>
+                                    <option value="3">3 Guests</option>
+                                    <option value="4">4 Guests</option>
+                                    <option value="5">5 Guests</option>
+                                    <option value="6">6+ Guests</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+
+                        <button type="submit" class="booking-search-btn">
+
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Search
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+
+        </section>
+
+
+
+        <!-- SIGNATURE HOTEL FEATURES -->
+        <section class="signature-section section-padding">
+
+            <div class="container">
+
+                <div class="section-heading text-center" data-aos="fade-up">
+
+                    <span class="section-eyebrow">
+                        THE VELMORA DIFFERENCE
+                    </span>
+
+                    <h2>
+                        Signature Hotel
+                        <span>Features</span>
+                    </h2>
+
+                    <p>
+                        Every detail is thoughtfully designed to make
+                        your stay truly exceptional.
+                    </p>
+
+                </div>
+
+
+                <div class="signature-grid">
+
+                    <article class="signature-card" data-aos="fade-up">
+
+                        <div class="signature-icon">
+                            <i class="fa-solid fa-bed"></i>
+                        </div>
+
+                        <h3>Luxury Accommodation</h3>
+
+                        <p>
+                            Beautifully designed rooms and suites
+                            offering exceptional comfort and privacy.
+                        </p>
+
+                        <a href="rooms.html" class="text-link">
+                            Discover Rooms
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </article>
+
+
+                    <article class="signature-card" data-aos="fade-up" data-aos-delay="100">
+
+                        <div class="signature-icon">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+
+                        <h3>Fine Dining</h3>
+
+                        <p>
+                            Explore exceptional culinary experiences
+                            crafted by our expert chefs.
+                        </p>
+
+                        <a href="hotels.html" class="text-link">
+                            Explore Dining
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </article>
+
+
+                    <article class="signature-card" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="signature-icon">
+                            <i class="fa-solid fa-spa"></i>
+                        </div>
+
+                        <h3>Wellness & Spa</h3>
+
+                        <p>
+                            Reconnect with yourself through peaceful
+                            wellness and rejuvenating spa experiences.
+                        </p>
+
+                        <a href="hotels.html" class="text-link">
+                            Explore Wellness
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </article>
+
+
+                    <article class="signature-card" data-aos="fade-up" data-aos-delay="300">
+
+                        <div class="signature-icon">
+                            <i class="fa-solid fa-concierge-bell"></i>
+                        </div>
+
+                        <h3>Personalized Service</h3>
+
+                        <p>
+                            Enjoy thoughtful hospitality and attentive
+                            service throughout your stay.
+                        </p>
+
+                        <a href="about.html" class="text-link">
+                            Our Hospitality
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- LUXURY IN EVERY MOMENT -->
+        <section class="luxury-banner-section">
+
+            <div class="luxury-banner">
+
+                <img
+                    src="img/sasha-kaunas-xEaAoizNFV8-unsplash.webp"
+                    alt="Luxury tropical swimming pool"
+                    class="luxury-banner-image"
+                >
+
+                <div class="luxury-banner-overlay"></div>
+
+
+                <div class="container luxury-banner-container">
+
+                    <div class="luxury-banner-content" data-aos="fade-right">
+
+                        <span class="section-eyebrow">
+                            EXPERIENCE THE EXTRAORDINARY
+                        </span>
+
+                        <h2>
+                            Luxury in
+                            <span>Every Moment</span>
+                        </h2>
+
+                        <p>
+                            From breathtaking destinations to beautifully
+                            curated experiences, discover a new definition
+                            of luxury with VELMORA.
+                        </p>
+
+                        <a href="hotels.html" class="btn btn-primary">
+                            Explore Destinations
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- SIGNATURE ROOMS & SUITES -->
+        <section class="featured-rooms-section section-padding">
+
+            <div class="container">
+
+                <div class="section-heading" data-aos="fade-up">
+
+                    <span class="section-eyebrow">
+                        YOUR PRIVATE SANCTUARY
+                    </span>
+
+                    <h2>
+                        Signature Rooms
+                        <span>& Suites</span>
+                    </h2>
+
+                    <p>
+                        Discover thoughtfully crafted spaces where
+                        comfort, sophistication, and style come together.
+                    </p>
+
+                </div>
+
+
+                <div class="featured-rooms-grid">
+
+                    <article class="featured-room-card" data-aos="fade-up">
+
+                        <div class="featured-room-image">
+
+                            <img
+                                src="img/antonio-araujo-ZyyobP6qcvY-unsplash.webp"
+                                alt="Deluxe luxury hotel room"
+                                loading="lazy"
+                            >
+
+                            <span class="room-tag">POPULAR CHOICE</span>
+
+                        </div>
+
+
+                        <div class="featured-room-content">
+
+                            <span class="room-category">
+                                ELEGANT COMFORT
+                            </span>
+
+                            <h3>Deluxe Room</h3>
+
+                            <p>
+                                An elegant retreat with modern interiors,
+                                premium bedding, and relaxing surroundings.
+                            </p>
+
+                            <div class="featured-room-footer">
+
+                                <div class="featured-room-price">
+                                    <strong>₹8,500</strong>
+                                    <span>/ night</span>
+                                </div>
+
+                                <a href="booking.html" class="room-book-link">
+                                    Book Now
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="featured-room-card" data-aos="fade-up" data-aos-delay="100">
+
+                        <div class="featured-room-image">
+
+                            <img
+                                src="img/bilderboken-rlwE8f8anOc-unsplash.webp"
+                                alt="Executive hotel suite"
+                                loading="lazy"
+                            >
+
+                            <span class="room-tag">EXCLUSIVE</span>
+
+                        </div>
+
+
+                        <div class="featured-room-content">
+
+                            <span class="room-category">
+                                REFINED LUXURY
+                            </span>
+
+                            <h3>Executive Suite</h3>
+
+                            <p>
+                                Experience spacious living, refined details,
+                                and personalized luxury at every turn.
+                            </p>
+
+                            <div class="featured-room-footer">
+
+                                <div class="featured-room-price">
+                                    <strong>₹14,500</strong>
+                                    <span>/ night</span>
+                                </div>
+
+                                <a href="booking.html" class="room-book-link">
+                                    Book Now
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="featured-room-card" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="featured-room-image">
+
+                            <img
+                                src="img/reisetopia-nRS3ClHbNGQ-unsplash.webp"
+                                alt="Premium private luxury villa"
+                                loading="lazy"
+                            >
+
+                            <span class="room-tag">PREMIUM</span>
+
+                        </div>
+
+
+                        <div class="featured-room-content">
+
+                            <span class="room-category">
+                                ULTIMATE ESCAPE
+                            </span>
+
+                            <h3>Presidential Villa</h3>
+
+                            <p>
+                                Indulge in exceptional privacy, generous
+                                spaces, and an unforgettable luxury stay.
+                            </p>
+
+                            <div class="featured-room-footer">
+
+                                <div class="featured-room-price">
+                                    <strong>₹25,000</strong>
+                                    <span>/ night</span>
+                                </div>
+
+                                <a href="booking.html" class="room-book-link">
+                                    Book Now
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <div class="section-bottom-action" data-aos="fade-up">
+
+                    <a href="rooms.html" class="btn btn-dark">
+                        View All Rooms
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- TRUSTED CHOICE -->
+        <section class="features-section section-padding">
+
+            <div class="container">
+
+                <div class="section-heading text-center" data-aos="fade-up">
+
+                    <span class="section-eyebrow">
+                        WHY VELMORA
+                    </span>
+
+                    <h2>
+                        A Trusted Choice for
+                        <span>Luxury Stays</span>
+                    </h2>
+
+                    <p>
+                        More than a stay, we create meaningful experiences
+                        that stay with you long after your journey.
+                    </p>
+
+                </div>
+
+
+                <div class="features-grid">
+
+                    <div class="feature-card" data-aos="fade-up">
+
+                        <div class="feature-card-icon">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+
+                        <h3>Exceptional Standards</h3>
+
+                        <p>
+                            A commitment to quality, excellence,
+                            and thoughtful hospitality.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+
+                        <div class="feature-card-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <h3>Beautiful Destinations</h3>
+
+                        <p>
+                            Discover memorable stays in remarkable
+                            destinations and locations.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+
+                        <div class="feature-card-icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <h3>Guest First Approach</h3>
+
+                        <p>
+                            Every experience is shaped around your
+                            comfort, preferences, and expectations.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- FINAL CTA -->
+        <section class="home-cta-section">
+
+            <div class="container">
+
+                <div class="home-cta-content" data-aos="zoom-in">
+
+                    <span class="section-eyebrow">
+                        YOUR NEXT JOURNEY STARTS HERE
+                    </span>
+
+                    <h2>
+                        Make Every Stay
+                        <span>Unforgettable</span>
+                    </h2>
+
+                    <p>
+                        Your perfect escape is waiting. Experience the
+                        exceptional hospitality of VELMORA.
+                    </p>
+
+                    <a href="booking.html" class="btn btn-primary">
+                        Reserve Your Stay
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <div class="footer-brand">
+
+                    <a href="index.html" class="brand-logo footer-logo">
+
+                        <span class="brand-icon">
+                            <i class="fa-solid fa-crown"></i>
+                        </span>
+
+                        <span class="brand-text">
+                            <strong>VELMORA</strong>
+                            <small>HOTELS & RESORTS</small>
+                        </span>
+
+                    </a>
+
+                    <p>
+                        VELMORA offers world-class hospitality,
+                        unmatched comfort, and exquisite elegance
+                        across breathtaking international locations.
+                    </p>
+
+
+                    <div class="footer-socials">
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="footer-column">
+
+                    <h3>Quick Links</h3>
+
+                    <a href="index.html">Home</a>
+                    <a href="hotels.html">Our Hotels</a>
+                    <a href="rooms.html">Rooms & Suites</a>
+                    <a href="offers.html">Special Offers</a>
+                    <a href="about.html">About Us</a>
+
+                </div>
+
+
+
+                <div class="footer-column">
+
+                    <h3>Support</h3>
+
+                    <a href="contact.html">Contact Us</a>
+                    <a href="booking.html">Reservations</a>
+                    <a href="contact.html">Guest Assistance</a>
+                    <a href="contact.html">Privacy Policy</a>
+                    <a href="contact.html">Terms & Conditions</a>
+
+                </div>
+
+
+
+                <div class="footer-column footer-contact">
+
+                    <h3>Connect With Us</h3>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Chennai, India
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:+911234567890">
+                            +91 1234567890
+                        </a>
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="mailto:styxxxxxx@gmail.com">
+                            styxxxxxx@gmail.com
+                        </a>
+                    </p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 VELMORA Hotels & Resorts.
+                    All Rights Reserved.
+                </p>
+
+                <span>
+                    Crafted for Exceptional Experiences
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- BACK TO TOP -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+    <!-- TOAST NOTIFICATION -->
+    <div class="toast-message" id="toast-message" role="status"></div>
+
+
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</body>
+</html>
